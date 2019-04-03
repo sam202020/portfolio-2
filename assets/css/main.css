@@ -3347,6 +3347,13 @@ input, select, textarea {
 		#banner .inner {
 			margin: 0 auto;
 			width: 55em;
+			
+		}
+
+		#banner .logos {
+			display: flex;
+			justify-content: start;
+			margin-right: 2rem;
 		}
 
 		#banner .logo {
@@ -3757,7 +3764,6 @@ input, select, textarea {
 				border-radius: 100%;
 				margin: 0 3em 2em 0;
 				width: 22em;
-				overflow: hidden;
 				-ms-flex: 1;
 			}
 
